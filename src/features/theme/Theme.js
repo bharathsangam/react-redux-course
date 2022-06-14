@@ -4,7 +4,7 @@ import { changeTextColor } from "./themeSlice";
 
 
 const Theme = () => {
-    const [color, setColor] = useState("White");
+    const [color, setColor] = useState("Green");
     const dispatch = useDispatch();
     return (
         <div>
