@@ -10,7 +10,7 @@ const Counter = () => {
         <div>
             <h1>React Redux Course</h1>
             <button type="button" name="" className="btn btn-primary" onClick={() => { dispatch(increment()) }}> + </button>
-            <span className='value' style={{color:themeTextColor}}> Count: {count} </span>
+            <span className='value' style={{color:themeTextColor}}>  Count: {count} </span>
             <button type="button" name="" className="btn btn-primary" onClick={() => { dispatch(decrement()) }}> - </button>
             <button type="button" name="" className="btn btn-primary" onClick={() => { dispatch(incrementByAmount(10)) }}> Increment value By 10 </button>
         </div>
